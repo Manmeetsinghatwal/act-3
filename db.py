@@ -8,7 +8,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            passwd='Myapipassword',
+            password='Myapipassword',
             database='RestfulApiDatabase'
         )
         print("Connection to MySQL DB successful")
