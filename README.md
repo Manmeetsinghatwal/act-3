@@ -49,27 +49,27 @@ The API supports the following operations:
 - **Body**: (application/json)
     ```json
     {
-      "title": "New Note",
-      "content": "Content of the new note."
+      "title": "New topic",
+      "content": "Content of the new topic."
     }
     ```
  – **Instructions**: **POST** – **URL** – **Body**: ‘raw’ – **Type**: JSON – **Send**:
 
 ### PUT /notes - Update an Existing Note
-- **Objective**: Updates an existing note by ID.
+- **Objective**: Updates an existing topic by ID.
 - **Method**: PUT
 - **URL**: `http://localhost:8080/notes?id=1` (Replace `1` with the actual note ID)
 - **Body**: (application/json)
     ```json
     {
-      "title": "Updated Note",
+      "title": "Updated topic",
       "content": "Updated content."
     }
     ```
-- **Instructions**: Set the request method to PUT, paste the URL, select Body from the tabs, set to 'raw', set the Type to 'JSON', past the JSON to edit the note, and submit the request.
+- **Instructions**: Set the request method to PUT, paste the URL, select Body from the tabs, set to 'raw', set the Type to 'JSON', past the JSON to edit the topic, and submit the request.
 
 ### DELETE /notes - Delete a Note
-- **Objective**: Deletes an existing note by ID.
+- **Objective**: Deletes an existing topic by ID.
 - **Method**: DELETE
 - **URL**: `http://localhost:8080/notes?id=1` (Replace `1` with the actual note ID)
 - **Body**: None
