@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 
 def create_connection():
-    """Connect to MySQL Database"""
+    """Connect to the MySQL Database"""
     connection = None
     try:
         connection = mysql.connector.connect(
