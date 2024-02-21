@@ -8,10 +8,10 @@ def create_connection():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            passwd='Myapipassword',
-            database='RestfulApiDatabase'
+            passwd='currentapipass',
+            database='BTP405'
         )
-        print("Connection to MySQL DB successful")
+        print("Successful connection to MySQL database")
     except Error as e:
         print(f"The error '{e}' occurred")
     return connection
