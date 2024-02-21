@@ -6,8 +6,8 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: Myapipassword
-      MYSQL_DATABASE: RestfulApiDatabase
+      MYSQL_ROOT_PASSWORD: currentapipass
+      MYSQL_DATABASE: BTP405
     ports:
       - "3306:3306"
 
