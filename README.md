@@ -1,7 +1,7 @@
 # Note-Taking Application API
 
 ## Overview
- This application provides a RESTful API for a basic note-taking application. You can interact with it via HTTP requests allowing to create, retrieve, update or delete notes. The API is built in Python, specifically the `http.server` module included in the standard library. Also it uses a MySQL database for persistence.
+This program offers a RESTful API for a simple note-taking tool. You may interact with it via HTTP requests to add, retrieve, update, and remove notes. The API was written in Python, especially the 'http.server' module from the standard library. It also makes use of a MySQL database for persistent storage.
 
 ## Prerequisites
 - Docker installed on your machine.
@@ -11,7 +11,7 @@
 ## Setup and Installation
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/LuqmanDirie/BTP405
+    git clone https://github.com/Manmeetsinghatwal/act-3
     cd directory-name
     ```
 
@@ -77,7 +77,8 @@ The API supports the following operations:
 
 ## Testing
 
- You can invoke the API endpoints using a graphics user interface (GUI) such as [Postman](https://www.postman.com/) pretending to be a browser client, or using the `curl` commands similar to those in the examples above.
+The API endpoints can be accessed using a graphical user interface (GUI) such as [Postman](https://www.postman.com/) masquerading as a browser client, or by 'curl' instructions similar to those shown above.
+
 
 ## Additional Information
 
@@ -87,4 +88,4 @@ The API supports the following operations:
 
 ## Contributors
 
-- Luqman Dirie (https://github.com/LuqmanDirie/BTP405)
+- Manmeet Singh Atwal (https://github.com/Manmeetsinghatwal/act-3)
